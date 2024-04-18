@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="112.607" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To test AsianPaints functionality" name="To validate Register a complaint functionality" time="112.382">
+<system-out><![CDATA[
+Given User is on homepage of Asian Paints and hover on Inspiration..........passed
+When User click on Guides option............................................passed
+And Click on Kitchen from Our Division Section..............................passed
+And Click on Register a complaint...........................................passed
+And User Register complaint with their Name, Email, Mobile and City.........passed
+And Select Nature of complaint..............................................passed
+And User enter their reason for complaint...................................passed
+And Click on Submit button..................................................passed
+Then It should give Thank you message.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

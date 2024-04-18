@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.472" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="To test AsianPaints functionality" name="To test Appoinment booking functionality for valid credentials - Example #1.1" time="27.17">
+<failure type="java.lang.AssertionError" message="expected [] but found [Thank you!]">
+<![CDATA[java.lang.AssertionError: expected [] but found [Thank you!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Step_Definition.InspirationSteps.it_should_schedule_a_visit_by_an_expert(InspirationSteps.java:90)
+	at ✽.It should schedule a visit by an expert(file:///C:/Users/VGIRISHS/Desktop/Sprint2/Inspiration/src/test/resource/Features/AsianPaints.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on homepage of Asian Paints and hover on Inspiration..........passed
+When Click on Where The Heart Is option.....................................passed
+And User enters the "Vaidehii", "9307870789", "442302" and vaidehi62@gmail.com.passed
+And Click on Book an appoinment.............................................passed
+Then It should schedule a visit by an expert................................failed
+]]></system-out>
+</testcase>
+</testsuite>
